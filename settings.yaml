@@ -641,10 +641,14 @@ spec:
           options:
             - value: "off"
               label: 默认
-            - value: "joe_slate.woff2"
-              label: "Joe Slate"
-            - value: "joe_future.woff2"
-              label: "Joe Future"
+            - value: "AliFY.woff2"
+              label: "阿里方圆体"
+            - value: "AliJK.woff2"
+              label: "阿里健康体"
+            - value: "PopHB.woff2"
+              label: "POP海报体"
+            - value: "Harmony.woff2"
+              label: "鸿蒙OS字体"
     - group: carousel
       label: 轮播图
       formSchema:
@@ -1751,11 +1755,6 @@ spec:
               label: 是
             - value: false
               label: 否
-        - $formkit: text
-          name: post_author_link
-          label: 文章页作者跳转链接
-          value: ""
-          help: "留空则不跳转"
 
 
         - $formkit: radio
